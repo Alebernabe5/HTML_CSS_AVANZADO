@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TextArea</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="../Tarjetas _personales/img/favi.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <form>
+      <h2>Formulario de contacto</h2>
+
+      <fieldset>
+        <legend>INFORMACIÓN BÁSICA</legend>
+        <!-- nombre -->
+        <div class="form_input">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            placeholder="Fernando Martín"
+            name=""
+            id="nombre"
+          />
+        </div>
+        <!-- email -->
+        <div class="form_input">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="fermar@gmail.com"
+            name=""
+            id="email"
+          />
+        </div>
+         <!-- Asunto -->
+         <div class="form_input">
+            <label for="nombre">Asunto</label>
+            <input
+              type="text"
+              placeholder="Asunto de tu mensaje"
+              name=""
+              id="asunto"
+            />
+          </div>
+      </fieldset>
+      <!-- Select -->
+      <div class="form_input">
+        <label for="select"
+          >Tipo de usuario
+          <select name="type-of-user">
+            <option value="user1">Seguidor</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otro</option>
+          </select>
+        </label>
+      </div>
+      <!-- data list -->
+      <div class="form_input">
+        <label for="select"
+          >Referente
+          <input type="text" list="referente" name="referente" />
+          <datalist id="referente" name="type-of-user">
+            <option>Dalto</option>
+            <option>Amigo</option>
+            <option>Otros</option>
+          </datalist>
+        </label>
+      </div>
+      <!-- textarea -->
+      <div class="form_input">
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          rows="7"
+          placeholder="Deja tu mensaje..."
+          name=""
+          id="mensaje"
+        ></textarea>
+      </div>
+
+      <!-- Terminos -->
+      <div class="form_input">
+        <label for="mensaje"
+          ><a href="terms.html" target="blank">Acepto términos y condiciones</a> 
+          <input type="checkbox" class="checkbox" />
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
