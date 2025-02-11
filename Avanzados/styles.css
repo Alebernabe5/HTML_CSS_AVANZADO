@@ -1,0 +1,33 @@
+li {
+    color: grey;
+}
+
+.ingrediente-faltante{
+    color: red;
+}
+
+.ingrediente-secreto{
+    color: blue;
+}
+
+
+/* SELECTOR POR ATRIBUTO */
+/* dar estilos cuando el valor termina en jpg hay que acompñarlo con $ */
+img[src="../Avanzados/img/leche.jpg"] {
+    width: 100%;
+}
+
+/* SELECTOR POR ATRIBUTO */
+li > em {
+    color: red;
+}
+/* SELECTOR ADYACENTE */
+h1 + p {
+    color: blue; 
+}
+/* SELECTOR DE HERMANOS GENERALES */
+h1 ~ p {
+    color: blue;
+}
+
+
