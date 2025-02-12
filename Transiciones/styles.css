@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: #f00;
+    /* margin: auto; */
+    margin-top: 50px;
+    /* hacer todas las transition en una linea los ultimos 2 seg es el delay  */
+    transition: left 1s  cubic-bezier(.93,.16,.14,.86) 2s;
+    /* proiedad en la que se hace  */
+    /* transition-property: left;
+    /* duracion en la que se hace  */
+    /* transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.93,.16,.14,.86); */
+    /* Cuanto va a tardar */
+    /* transition-delay: 2s;   */
+    color: red;
+    position: relative;
+    left: 0;
+}
+.box:hover {
+    /* background-color: #a22 ; */
+    /* color: #fff; */
+    left: 600px;
+}
