@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-color: #ededed;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.box--blue{
+    background-color: blue;
+    top:40px;
+    z-index: 10;
+}
