@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+div, body {
+    box-sizing: border-box;
+}
+.flexbox{
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: row ; */
+    flex-flow: row wrap;
+    /* direction: ltl; poner la direccion el sentido que queremos que vaya */
+    margin: 20px;
+    border: 2px solid #000;
+background-color: #fff;
+align-items: center;
+    /* justify-content: space-evenly; */
+    /* espacio entre cajas hijas  */
+    gap: 20px;
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+
+.flex-item{
+width: 200px;
+background-color: #800;
+color: #fff;
+margin: 10px;
+text-align: center;
+font-size: 40px;
+direction: rtl;
+
+/* flex-basis: auto;
+flex-basis: 150px;
+flex-grow: 1; */
+
+flex: 1 1 auto;
+
+
+}
+
+.flex-item:last-child{
+    background-color: #000;
+}
+
+
+.aling-self{
+    align-self: flex-start;
+}
