@@ -3,6 +3,13 @@ body{
     font-family: sans-serif;
 }
 
-div, body {
+div,body {
     box-sizing: border-box;
+}
+
+@media screen {
+    body{
+        font-size: 12pt;
+    }
+
 }
